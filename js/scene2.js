@@ -129,33 +129,74 @@ function scene2() {
 // })
 
   frame(function() {
+  joffrey.style.top = 0
+  joffrey.style.left = '33%'
+  joff.style.transform = 'rotateZ(220deg)'
 
   })
-
-  // Stage direction 2
 
   frame(function() {
     ned.style.top = '5%'
     ned.style.left = '-32%'
+    ned.style.transform = 'rotateZ(220deg)'
+
+  })
+
+  frame(function() {
+  joffrey.style.top = '17%'
+  joffrey.style.left = '90%'
+  joff.style.transform = 'rotateZ(140deg)'
+
   })
 
   frame(function() {
     ned.style.top = '30%'
     ned.style.left = '-77%'
+    ned.style.transform = 'rotateZ(140deg)'
+
+  })
+
+  frame(function() {
+  joffrey.style.top = '35%'
+  joffrey.style.left = '160%'
+  joff.style.transform = 'rotateZ(260deg)'
+
   })
 
   frame(function() {
     ned.style.top = '50%'
-    ned.style.left = '-80%'
+    ned.style.left = '-100%'
+    ned.style.transform = 'rotateZ(260deg)'
+  })
+
+  frame(function() {
+  joffrey.style.top = '55%'
+  joffrey.style.left = '230%'
+  joff.style.transform = 'rotateZ(180deg)'
+
   })
 
   frame(function() {
     ned.style.top = '70%'
-    ned.style.left = '-80%'
+    ned.style.left = '-125%'
+    ned.style.transform = 'rotateZ(180deg)'
+  })
+
+  frame(function() {
+  joffrey.style.top = '75%'
+  joffrey.style.left = '300%'
+  joff.style.transform = 'rotateZ(100deg)'
+
   })
 
   frame(function() {
     ned.style.top = '100%'
-    ned.style.left = '-80%'
+    ned.style.left = '-140%'
+    ned.style.transform = 'rotateZ(100deg)'
+
   })
+  // Stage direction 2
+
+
+
 }

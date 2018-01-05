@@ -1,6 +1,7 @@
 function scene3() {
+  console.log('Executing scene 3!')
 
-  // Setup Stage
+  //Setup Stage
   mySrc = desert.getAttribute('src')
   stageImg = document.querySelector('#stage-img')
   stageImg.setAttribute('src', mySrc)
